@@ -1,11 +1,3 @@
-getgenv().Settings = {
-    Map = "PLAINS", -- map must be in all caps
-    Difficulty = "Abnormal", -- proper case, Easy, Medium, Hard, Extreme, Abnormal
-    Speed = 600, -- tween speed to use to get to nearest titan
-    Speed2 = 400, -- tween speed to use if <50 studs within titan (prevents kicking at times)
-    LeaveTimer = 200 -- in seconds, in case if u get stuck or wtv (put it to 9999999 if u dont want it to leave lol)
-}
-
 repeat wait(1) until game:IsLoaded()
 
 if getgenv().Settings.LeaveTimer == nil then
